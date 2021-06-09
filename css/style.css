@@ -11,7 +11,7 @@ body {
     right: 6%;
 }
 
-.navleft {
+.divtop .navleft {
     font: bold 20pt Tahoma;
     color: rgb(122, 31, 240);
     float: left;
@@ -20,7 +20,7 @@ body {
     padding: 15px;
 }
 
-.navcenter {
+.divtop .navcenter {
     padding: 25px 25px 45px 25px;  
     margin:0px;
     display: inline-block;
@@ -28,33 +28,33 @@ body {
     list-style:none;
 }
 
-.navcenter li {
+.divtop .navcenter li {
     display: inline-block;
 }
 
-.navcenter li a {
+.divtop .navcenter li a {
     font: bold 12pt Tahoma;
     color: black;
     padding: 25px 25px 45px 25px;
     text-decoration: none;
 }
 
-.navcenter li .home{
+.divtop .navcenter li .home{
     color: rgb(122, 31, 240);
     border-bottom: solid 3px rgb(122, 31, 240);
 }
 
-.navcenter li .sobre{
+.divtop .navcenter li .sobre{
     color: rgb(122, 31, 240);
     border-bottom: solid 3px rgb(122, 31, 240);
 }
 
-.navcenter li .contato{
+.divtop .navcenter li .contato{
     color: rgb(122, 31, 240);
     border-bottom: solid 3px rgb(122, 31, 240);
 }
 
-.navright {
+.divtop .navright {
     color: rgb(122, 31, 240);
     background-color: rgb(122, 31, 240);
     float: right;
@@ -62,11 +62,11 @@ body {
     padding: 25px 35px;
 }
 
-.navright li {
+.divtop .navright li {
     display: inline-block;
 }
 
-.navright li a{
+.divtop .navright li a{
     text-decoration: none;
     font-size: 14pt;
     color: white;
