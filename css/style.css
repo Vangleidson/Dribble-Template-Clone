@@ -44,6 +44,16 @@ body {
     border-bottom: solid 3px rgb(122, 31, 240);
 }
 
+.navcenter li .sobre{
+    color: rgb(122, 31, 240);
+    border-bottom: solid 3px rgb(122, 31, 240);
+}
+
+.navcenter li .contato{
+    color: rgb(122, 31, 240);
+    border-bottom: solid 3px rgb(122, 31, 240);
+}
+
 .navright {
     color: rgb(122, 31, 240);
     background-color: rgb(122, 31, 240);
