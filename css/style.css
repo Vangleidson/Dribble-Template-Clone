@@ -71,34 +71,34 @@ body {
     padding: 25px 30px;
 }
 
+.divtop hr {
+    opacity: 30%;
+}
 
 .divcont1 {
-    margin: 100px 0px 10px 0px;
-    width: fit-content;
+    margin: 100px 0px 10px 15px;
 }
 
 .divcont1 .navcenter li {
     padding: 25px 25px 45px 0px;  
     display: inline-block;
     text-decoration: none;
-    list-style:none;
+    list-style: none;
 }
 
 .divcont1 .navcenter li a {
     display: inline-block;
-    margin: 0px 100px 0px 250px;
-    font: bold 13pt Tahoma;
+    margin: 0px 100px 0px 200px;
+    font: bold 13pt Verdana;
     text-decoration: none;
-    color: rgb(122, 31, 240);
-}
-
-.divcont1 .navcenter li a img {
-    padding: 5px;
+    color: rgb(145, 63, 252);
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(248, 247, 247);
 }
 
 .divcont2 {
-    width: fit-content;
-    margin-left: 100px;
+    margin-left: 75px;
 }
 
 .divcont2 .navcenter li {
@@ -109,23 +109,89 @@ body {
 
 .divcont2 .navcenter li a {
     display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(248, 247, 247);
 }
 
-.divcont2 .navcenter li a .l {
-    padding: 5px;
-    margin-right: 50px;
-}
-
-.divcont2 .navcenter li a .r {
-    padding: 5px;
-    margin-left: 50px;
-}
 
 .divcont2 .navcenter li p {
     width: 1000px; 
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     text-align: center;
     font: bold 53pt Verdana;
-    color: rgb(58, 17, 87);
+    line-height: 100px;
+    color: rgb(35, 8, 54);
+}
+
+.divcont3 p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font: bold 13pt Verdana;
+    opacity: 25%;
+    line-height: 40px;
+    color: rgb(35, 8, 54);
+}
+
+.divcont4 {
+    width: 1500px;
+    margin-left: 150px;
+    margin-right: 200px;
+}
+
+.divcont4 .navcenter li.center {
+    width: 700px;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+
+.divcont4 .navcenter li {
+    padding: 25px 25px 45px 0px;  
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.divcont4 .navcenter li .input1 {
+    width: 150px;
+    padding: 10px 100px 35px 35px;
+    border-style: hidden;
+    font-size: 13pt;
+    opacity: 60%;
+    background: url(../imgs/lupa.png) no-repeat scroll 7px 7px;
+    background-size: 20px;
+}
+
+.divcont4 .navcenter li .input2 {
+    width: 150px;
+    padding: 10px 100px 35px 35px;
+    border-style: hidden;
+    font-size: 13pt;
+    opacity: 60%;
+    background: url(../imgs/local.png) no-repeat scroll 7px 7px;
+    background-size: 20px;
+    top: 12px;
+    left: 15px;
+}
+
+.divcont4 .navcenter li a {
+    display: inline-block;
+    font: bold 13pt Verdana;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(248, 247, 247)
+}
+
+.divcont4 .navcenter li a.search {
+    padding: 30px 40px;
+    color: rgb(248, 247, 247);
+    font-size: 14pt;
+    border-radius: 0px;
+    background-color: rgb(122, 31, 240);
+    margin-right: 120px;
 }
