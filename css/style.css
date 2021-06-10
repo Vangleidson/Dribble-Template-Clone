@@ -1,12 +1,11 @@
 * {
     margin: 0%;
-    
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 7%;
+    top: 3%;
     left: 5%;
     right: 5%;
 }
@@ -22,7 +21,6 @@ body {
 
 .divtop .navcenter {
     padding: 25px 25px 45px 25px;  
-    margin: 0px;
     display: inline-block;
     text-decoration: none;
     list-style:none;
@@ -75,11 +73,11 @@ body {
 
 
 .divcont1 {
-    margin: 70px 0px;
+    margin: 100px 0px 10px 0px;
     width: fit-content;
 }
 
-.divcont1 .navcenter li{
+.divcont1 .navcenter li {
     padding: 25px 25px 45px 0px;  
     display: inline-block;
     text-decoration: none;
@@ -89,12 +87,45 @@ body {
 .divcont1 .navcenter li a {
     display: inline-block;
     margin: 0px 100px 0px 250px;
-    font: bold 12pt Tahoma;
-    color: black;
+    font: bold 13pt Tahoma;
     text-decoration: none;
     color: rgb(122, 31, 240);
 }
 
-.divcont1 .navcenter li a img{
+.divcont1 .navcenter li a img {
     padding: 5px;
+}
+
+.divcont2 {
+    width: fit-content;
+    margin-left: 100px;
+}
+
+.divcont2 .navcenter li {
+    display: inline-block;
+    text-decoration: none;
+    list-style:none;
+}
+
+.divcont2 .navcenter li a {
+    display: inline-block;
+}
+
+.divcont2 .navcenter li a .l {
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.divcont2 .navcenter li a .r {
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.divcont2 .navcenter li p {
+    width: 1000px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font: bold 53pt Verdana;
+    color: rgb(58, 17, 87);
 }
