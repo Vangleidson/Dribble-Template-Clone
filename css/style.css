@@ -12,7 +12,7 @@ body {
 
 .divtop .navleft {
     font: bold 20pt Tahoma;
-    color: rgb(122, 31, 240);
+    color: #3536B9;
     float: left;
     margin-left: 100px;
     margin-right: 440px;
@@ -38,23 +38,23 @@ body {
 }
 
 .divtop .navcenter li .home {
-    color: rgb(122, 31, 240);
-    border-bottom: solid 3px rgb(122, 31, 240);
+    color: #3536B9;
+    border-bottom: solid 3px #3536B9;
 }
 
 .divtop .navcenter li .sobre {
-    color: rgb(122, 31, 240);
-    border-bottom: solid 3px rgb(122, 31, 240);
+    color: #3536B9;
+    border-bottom: solid 3px #3536B9;
 }
 
 .divtop .navcenter li .contato {
-    color: rgb(122, 31, 240);
-    border-bottom: solid 3px rgb(122, 31, 240);
+    color: #3536B9;
+    border-bottom: solid 3px #3536B9;
 }
 
 .divtop .navright {
-    color: rgb(122, 31, 240);
-    background-color: rgb(122, 31, 240);
+    color: #3536B9;
+    background-color: #3536B9;
     float: right;
     margin-right: 100px;
     padding: 20px 20px;
@@ -91,7 +91,7 @@ body {
     margin: 0px 100px 0px 200px;
     font: bold 13pt Verdana;
     text-decoration: none;
-    color: rgb(122, 31, 240);
+    color: #3536B9;
     padding: 20px;
     border-radius: 50px;
     background-color: rgb(248, 247, 247);
@@ -164,6 +164,7 @@ body {
     opacity: 60%;
     background: url(../imgs/lupa.png) no-repeat scroll 7px 7px;
     background-size: 20px;
+    box-shadow: 0 0 4em rgb(224, 203, 203);
 }
 
 .divcont4 .navcenter li .input2 {
@@ -174,8 +175,7 @@ body {
     opacity: 60%;
     background: url(../imgs/local.png) no-repeat scroll 7px 7px;
     background-size: 20px;
-    top: 12px;
-    left: 15px;
+    box-shadow: 0 0 4em rgb(224, 203, 203);
 }
 
 .divcont4 .navcenter li a {
@@ -192,7 +192,7 @@ body {
     color: rgb(248, 247, 247);
     font-size: 14pt;
     border-radius: 0px;
-    background-color: rgb(122, 31, 240);
+    background-color: #3536B9;
     margin-right: 70px;
 }
 
@@ -208,7 +208,7 @@ body {
 
 .divcont5 .span{ 
     font: bold 14pt Verdana;
-    color: rgb(122, 31, 240);
+    color: #3536B9;
 }
 
 .divmid1 {
@@ -308,14 +308,35 @@ body {
     animation: progress-animation 2s;
 }
 
+.grid ul li .progress1{
+    width: 350px;
+    margin-left: 30px;
+    height: 3%;
+}
+
 @keyframes progress-animation{
-    10% { width: 40%; } 
+    10% { width: 40%; }
 }
 
 .grid ul li .pm2 {
     margin: 30px 30px 0px 30px;
     font: 15pt Times;  
     opacity: 40%;
+}
+
+.grid ul li .pm3 {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 60px;
+    background-color: #3536B9;
+}
+
+.grid ul li .pm3 a {
+    text-decoration: none;
+    text-align: center;
+    font: bold 10pt Verdana;
+    color: rgb(248, 247, 247);
 }
 
 
