@@ -131,7 +131,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font: bold 14pt Verdana;
+    font: 14pt Tahoma;
     opacity: 25%;
     line-height: 40px;
     color: rgb(35, 8, 54);
@@ -220,6 +220,7 @@ body {
 
 .divmid1 header {
     width: 600px;
+    padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -233,7 +234,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font: bold 14pt Verdana;
+    font: 14pt Tahoma;
     opacity: 25%;
     line-height: 40px;
     color: rgb(35, 8, 54);
