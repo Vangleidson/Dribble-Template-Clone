@@ -130,7 +130,6 @@ body {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
     text-align: center;
     font: bold 14pt Verdana;
     opacity: 25%;
@@ -210,4 +209,32 @@ body {
 .divcont5 .span{ 
     font: bold 14pt Verdana;
     color: rgb(122, 31, 240);
+}
+
+.divmid1 {
+    width: 100%;
+    height: 1200px;
+    margin-top: 150px;
+    background-color: rgb(248, 247, 247);
+}
+
+.divmid1 header {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font: bold 35pt Verdana;
+    color: rgb(35, 8, 54);
+}
+
+.divmid1 p {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font: bold 14pt Verdana;
+    opacity: 25%;
+    line-height: 40px;
+    color: rgb(35, 8, 54);
 }
