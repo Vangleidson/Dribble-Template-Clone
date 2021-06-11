@@ -244,7 +244,7 @@ body {
 
 .grid ul {
     width: 1300px;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -258,7 +258,36 @@ body {
     background-color: white;
 }
 
-.grid ul li div p{
+
+.grid ul li img{
+    margin: 30px 30px 0px 30px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 0.8em lightgray;
+}
+
+.grid ul li .p1{
     display: inline-block;
-    font-size: 14pt;
+    vertical-align: top;
+    margin-top: 30px;
+    font: bold 19pt Times;
+}
+
+.grid ul li .pm {
+    margin: -25px 0px 0px 130px;
+    font: 15pt Times;  
+    opacity: 40%;
+}
+
+.grid ul li .p2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 8px;
+    font: bold 13pt Times;    
+    border-radius: 10px;
+    color: rgb(255, 204, 74);
+    background-color: rgb(255, 252, 232);
 }
