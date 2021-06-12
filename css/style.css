@@ -359,13 +359,18 @@ body {
     filter: grayscale();
 }
 
+.pai {
+    width: 100%;
+    border: #3536B9;
+    display: flex;
+}
+
 .divmid3 {
-    width: 400px;
+    width: 500px;
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 50px;
     padding-left: 230px;
-    border: solid;
     background-color:  rgb(248, 247, 247);
 }
 
@@ -376,10 +381,87 @@ body {
 }
 
 .divmid3 .left .p2 {
-    width: 600px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    font: bold 34pt Verdana;
+    font: bold 33pt Verdana;
     color: rgb(35, 8, 54);
 }
+
+.pai .right {
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pai .right .p1 {
+    width: 500px;
+    height: 150px;
+    margin-top: 500px;
+    margin-left: -150px;
+    font: bold 29pt Verdana;
+    color: rgb(35, 8, 54);
+
+}
+
+.pai .right .p2 {
+    width: 500px;
+    margin-left: -150px;
+    text-align: justify;
+    font: 15pt Tahoma;
+    line-height: 35px;
+    opacity: 25%;
+    color: rgb(35, 8, 54);
+}
+
+.pai .grid2 ul {
+    width: 800px;
+    margin-top: 30px;
+    margin-left: -200px;
+    margin-right: auto;
+}
+
+.pai .grid2 ul li {
+    height: 120px;
+    width: 290px;
+    margin-right: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(248, 247, 247);
+}
+
+
+.pai .grid2 ul li img{
+    margin: 30px 30px 0px 30px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 0.8em rgb(248, 225, 225);
+}
+
+.pai .grid2 ul li .p3{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 35px;
+    font: bold 14pt Times;
+}
+
+.pai .grid2 ul li .p4 {
+    margin: -25px 0px 0px 130px;
+    font: bold 15pt Times;  
+    color: #3536B9;
+}
+.pai .right a {
+    width: 150px;
+    position: absolute;
+    margin: 75px 0px 0px -150px;
+    padding: 30px 30px;
+    text-align: center;
+    border: solid 2px #3536B9;
+    font: 14pt verdana;
+    color: #3536B9;
+    text-decoration: none;
+}
+
