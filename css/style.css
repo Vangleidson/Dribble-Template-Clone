@@ -614,3 +614,10 @@ body {
     text-decoration: none;
 }
 
+.rodape .navcenter li #botao1 {
+    padding: 5px 20px;
+    color: #3536B9;
+    font: bold 14pt Verdana;
+    background-color: white;
+    margin-right: 30px;
+}

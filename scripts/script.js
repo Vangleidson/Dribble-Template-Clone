@@ -26,3 +26,10 @@ function sair3(){
     mouseIn3.style.borderBottom = "black"
     mouseIn3.style.color = "black"
 }
+
+var click = document.getElementById("botao1")
+click.addEventListener("click", clicar)
+
+function clicar(){
+    alert("Vangleidson Fernandes --- Desenvolvimento WEB 2021.1")
+}
