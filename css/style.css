@@ -621,3 +621,58 @@ body {
     background-color: white;
     margin-right: 30px;
 }
+
+.divmsg {
+    position: relative;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: right;
+}
+
+.divmsg ul li {
+    list-style: none;
+}
+
+.pmsg {
+    color: #3536B9;
+    font: bold 13pt Verdana;
+}
+
+.pmsg #inp1 {
+    width: 150px;
+    padding: 15px 80px 15px 5px;
+    border-style: hidden;
+    font: 10pt Verdana;
+    opacity: 80%;
+    box-shadow: 0 0 4em rgb(221, 202, 202);
+}
+
+.pmsg #inp2 {
+    width: 150px;
+    padding: 45px 80px 15px 5px;
+    border-style: hidden;
+    font: 10pt Verdana;
+    opacity: 80%;
+    box-shadow: 0 0 4em rgb(196, 179, 179);
+}
+.pmsg #btn1 {
+    padding: 3px 7px;
+    color: rgb(248, 247, 247);
+    font: bold 10pt Verdana;
+    background-color: #3536B9;
+}
+
+.divlinks {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.divlinks a {
+    text-decoration: none;
+    font: bold 12pt Verdana;
+    color: #3536B9;
+}
