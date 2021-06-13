@@ -33,3 +33,38 @@ click.addEventListener("click", clicar)
 function clicar(){
     alert("Vangleidson Fernandes --- Desenvolvimento WEB 2021.1")
 }
+
+var enviar = document.getElementById("btn1")
+enviar.addEventListener("click", insere)
+
+
+function insere () {
+    var nome1  = document.createElement('p')
+    var input1 = document.getElementById("inp1")
+    var texto1 = document.createTextNode(input1.value)
+    nome1.appendChild(texto1);
+
+    var msg1 = document.createElement('p')
+    var input2 = document.getElementById("inp2")
+    var texto2 = document.createTextNode(input2.value)
+    msg1.appendChild(texto2);
+
+    var btn1 = document.createElement('button')
+    var input3 = document.getElementById("btn1")
+    input3.addEventListener("click", excluir)
+    var texto3 = document.createTextNode("EXCLUIR")
+    btn1.appendChild(texto3);
+
+    var lista = document.getElementById('ul1')
+    var itens = document.getElementById('li1')
+    lista.insertBefore(nome1, itens[0])
+    lista.insertBefore(msg1, itens[0])
+    lista.insertBefore(btn1, itens[0])
+
+}
+
+
+
+function excluir() {
+    
+}
