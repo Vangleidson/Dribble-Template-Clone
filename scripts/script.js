@@ -37,7 +37,6 @@ function clicar(){
 var enviar = document.getElementById("btn1")
 enviar.addEventListener("click", insere)
 
-
 function insere () {
     var nome1  = document.createElement('p')
     var input1 = document.getElementById("inp1")
@@ -48,23 +47,30 @@ function insere () {
     var input2 = document.getElementById("inp2")
     var texto2 = document.createTextNode(input2.value)
     msg1.appendChild(texto2);
-
+    
     var btn1 = document.createElement('button')
-    var input3 = document.getElementById("btn1")
-    input3.addEventListener("click", excluir)
     var texto3 = document.createTextNode("EXCLUIR")
     btn1.appendChild(texto3);
+    btn1.addEventListener('click', excluir)
+    var i
+    for (i = 0; i < 5; i++) {
+        var lista = document.getElementById('ul1')
+        var itens = document.getElementById('li1')
+        lista.insertBefore(nome1, itens[i])
+        nome1.className = 'nomeE'
 
-    var lista = document.getElementById('ul1')
-    var itens = document.getElementById('li1')
-    lista.insertBefore(nome1, itens[0])
-    lista.insertBefore(msg1, itens[0])
-    lista.insertBefore(btn1, itens[0])
+        lista.insertBefore(msg1, itens[i])
+        msg1.className = 'msgE'
 
+        lista.insertBefore(btn1, itens[i])
+        btn1.className = 'btnE'
+    }
 }
 
-
-
 function excluir() {
-    
+    for (i = 0; i < 5; i++) {
+            document.getElementsByClassName('nomeE')[i].remove()
+            document.getElementsByClassName('msgE')[i].remove()
+            document.getElementsByClassName('btnE')[i].remove()
+    }
 }
