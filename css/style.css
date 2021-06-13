@@ -617,7 +617,7 @@ body {
 .rodape .navcenter li #botao1 {
     padding: 5px 20px;
     color: #3536B9;
-    font: bold 14pt Verdana;
+    font: bold 12pt Verdana;
     background-color: white;
     margin-right: 30px;
 }
@@ -656,6 +656,7 @@ body {
     color: gray;
     font: bold 11pt Verdana;
     text-align: justify;
+    margin-bottom: 75px;
 }
 
 .divmsg2 ul li img {

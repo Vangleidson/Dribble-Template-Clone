@@ -26,4 +26,9 @@ function sair2(){
     mouseIn2.style.color = "black"
 }
 
+var click = document.getElementById("botao1")
+click.addEventListener("click", clicar)
 
+function clicar(){
+    alert("Vangleidson Fernandes --- Desenvolvimento WEB 2021.1")
+}
