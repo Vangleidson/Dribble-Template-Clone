@@ -3,7 +3,6 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     top: 3%;
     left: 5%;
@@ -11,7 +10,7 @@ body {
 }
 
 .divtop .navleft {
-    font: bold 20pt Tahoma;
+    font: bold 20pt Verdana;
     color: #3536B9;
     float: left;
     margin-left: 100px;
@@ -23,7 +22,7 @@ body {
     padding: 25px 25px 45px 25px;  
     display: inline-block;
     text-decoration: none;
-    list-style:none;
+    list-style: none;
 }
 
 .divtop .navcenter li {
@@ -31,7 +30,7 @@ body {
 }
 
 .divtop .navcenter li a {
-    font: bold 12pt Tahoma;
+    font: bold 12pt a;
     color: black;
     padding: 25px 25px 45px 25px;
     text-decoration: none;
@@ -87,7 +86,6 @@ body {
 }
 
 .divcont1 .navcenter li a {
-    
     margin: 0px 100px 0px 200px;
     font: bold 13pt Verdana;
     text-decoration: none;
@@ -531,7 +529,7 @@ body {
     margin-right: auto;
     font: 13pt verdana;  
     opacity: 25%;
-    text-align: justify;
+    text-align: center;
     line-height: 25px;
 }
 
@@ -554,6 +552,7 @@ body {
 .grid3 .last ul li .pl2 {
     width: fit-content;
     margin-left: 70px;
+    margin-top: 30px;
     font: 13pt verdana;  
     opacity: 25%;
     text-align: justify;
@@ -562,6 +561,7 @@ body {
 
 .grid3 .last ul li .l1{
     margin-left: 120px;
+    margin-right: 15px;
     padding: 27px 60px;
     text-align: center;
     text-decoration: none;
@@ -578,3 +578,40 @@ body {
     color: #3536B9;
     border: solid 1px #3536B9;
 }
+
+.rodape {
+    width: 100%;
+    height: 200px;
+    margin-top: 180px;
+    background-color: rgba(12, 2, 20, 0.87);
+}
+
+.rodape .navleft {
+    font: bold 20pt Verdana;
+    color: white;
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.rodape .navcenter {
+    margin: 25px 120px 0px 0px;  
+    text-decoration: none;
+    list-style: none;
+    float: right;
+}
+
+.rodape .navcenter li {
+    display: inline-block;
+    color: white;
+    padding-left: 35px;
+    margin-top: 75px;
+}
+
+.rodape .navcenter li a {
+    font: bold 12pt Verdana;
+    color: white;
+    text-decoration: none;
+}
+
+
