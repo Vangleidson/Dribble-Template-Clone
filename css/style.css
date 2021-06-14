@@ -59,12 +59,7 @@ body {
     padding: 20px 20px;
 }
 
-.divtop .navright li {
-    display: inline-block;
-}
-
 .divtop .navright li a {
-    text-decoration: none;
     font-size: 15pt;
     color: white;
     padding: 25px 30px;
@@ -668,21 +663,21 @@ body {
 
 
 .pmsg #inp1 {
-    width: 150px;
-    padding: 15px 80px 15px 5px;
+    width: 50px;
+    padding: 10px 80px 10px 5px;
     border-style: hidden;
-    font: 10pt Verdana;
+    font: bold 12pt Verdana;
     opacity: 80%;
-    box-shadow: 0 0 4em rgb(221, 202, 202);
+    box-shadow: 0 0 1em rgb(221, 202, 202);
 }
 
 .pmsg #inp2 {
     width: 150px;
-    padding: 45px 80px 15px 5px;
+    padding: 10px 80px 30px 5px;
     border-style: hidden;
-    font: 10pt Verdana;
+    font: bold 12pt Verdana;
     opacity: 80%;
-    box-shadow: 0 0 4em rgb(196, 179, 179);
+    box-shadow: 0 0 1em rgb(196, 179, 179);
 }
 .pmsg #btn1 {
     padding: 3px 7px;
@@ -702,4 +697,51 @@ body {
     text-decoration: none;
     font: bold 12pt Verdana;
     color: #3536B9;
+}
+
+#ul1 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto 20px auto;
+    padding: 20px 20px;
+    background-color:  rgb(248, 247, 247);
+    text-align: right;
+    list-style: none;
+}
+
+#ul1 #li1 {
+    text-decoration: none;
+    font: bold 13pt Verdana;
+    color: #3536B9;
+    
+}
+
+#ul1 #li1 #inp1{
+    width: 50px;
+    padding: 10px 80px 10px 5px;
+    border-style: hidden;
+    font: bold 13pt Verdana;
+    opacity: 80%;
+    box-shadow: 0 0 1em rgb(221, 202, 202);
+}
+
+#ul1 #li1 #inp2{
+    width: 150px;
+    padding: 10px 80px 30px 5px;
+    border-style: hidden;
+    font: bold 13pt Verdana;
+    opacity: 80%;
+    box-shadow: 0 0 1em rgb(196, 179, 179);
+}
+
+#ul1 #li1 #btn1 {
+    padding: 3px 7px;
+    color: rgb(248, 247, 247);
+    font: bold 10pt Verdana;
+    background-color: #3536B9;
+}
+
+#ul1 #li1 .msgE {
+    font-size: 40pt;
 }

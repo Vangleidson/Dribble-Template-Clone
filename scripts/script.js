@@ -40,6 +40,7 @@ enviar.addEventListener("click", insere)
 function insere () {
     var nome1  = document.createElement('p')
     var input1 = document.getElementById("inp1")
+
     var texto1 = document.createTextNode(input1.value)
     nome1.appendChild(texto1);
 
@@ -50,12 +51,13 @@ function insere () {
     
     var btn1 = document.createElement('button')
     var texto3 = document.createTextNode("EXCLUIR")
+    
     btn1.appendChild(texto3);
-    btn1.addEventListener('click', excluir)
-    var i
-    for (i = 0; i < 5; i++) {
+
+    for (i = 0; i < 15; i++) {
         var lista = document.getElementById('ul1')
         var itens = document.getElementById('li1')
+
         lista.insertBefore(nome1, itens[i])
         nome1.className = 'nomeE'
 
@@ -64,13 +66,11 @@ function insere () {
 
         lista.insertBefore(btn1, itens[i])
         btn1.className = 'btnE'
-    }
-}
+        var bt = document.getElementsByClassName('btnE')[i]
+        bt.style.color =  "rgb(248, 247, 247)"
+        bt.style.font = "bold 10pt Verdana"
+        bt.style.background = "#3536B9"
+        bt.style.display = "inline-block"
 
-function excluir() {
-    for (i = 0; i < 5; i++) {
-            document.getElementsByClassName('nomeE')[i].remove()
-            document.getElementsByClassName('msgE')[i].remove()
-            document.getElementsByClassName('btnE')[i].remove()
     }
 }
